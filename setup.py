@@ -12,9 +12,9 @@ except FileNotFoundError as myEx:
 setup(
     name="finrl-meta",
     version="0.3.6",
-    author="Xiao-Yang Liu, Ming Zhu, Jingyang Rui, Hongyang Yang",
-    author_email="hy2500@columbia.edu",
-    url="https://github.com/AI4Finance-Foundation/FinRL-Meta",
+    author="ya boy",
+    author_email="103228780+AFTERaB@users.noreply.github.com",
+    url="https://github.com/AFTERaB/FinRL-Meta/",
     license="MIT",
     install_requires=REQUIRES,
     description="FinRL­-Meta: A Universe of ­ Market En­vironments for Data­-Driven Financial Reinforcement Learning",
