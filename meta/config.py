@@ -32,21 +32,21 @@ INDICATORS = [
 
 
 # Model Parameters
-A2C_PARAMS = {"n_steps": 5, "ent_coef": 0.01, "learning_rate": 0.0007}
+A2C_PARAMS = {"n_steps": 5, "ent_coef": 0.009, "learning_rate": 0.0007}
 PPO_PARAMS = {
     "n_steps": 2048,
-    "ent_coef": 0.01,
-    "learning_rate": 0.00025,
-    "batch_size": 64,
+    "ent_coef": 0.07,
+    "learning_rate": 0.0003,
+    "batch_size": 400,
 }
 DDPG_PARAMS = {"batch_size": 128, "buffer_size": 50000, "learning_rate": 0.001}
 TD3_PARAMS = {
-    "batch_size": 100,
+    "batch_size": 400,
     "buffer_size": 1000000,
     "learning_rate": 0.001,
 }
 SAC_PARAMS = {
-    "batch_size": 64,
+    "batch_size": 400,
     "buffer_size": 100000,
     "learning_rate": 0.0001,
     "learning_starts": 100,
@@ -59,7 +59,7 @@ ERL_PARAMS = {
     "seed": 312,
     "net_dimension": 512,
     "target_step": 5000,
-    "eval_gap": 30,
+    "eval_gap": 10,
 }
 RLlib_PARAMS = {"lr": 5e-5, "train_batch_size": 500, "gamma": 0.99}
 
