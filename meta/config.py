@@ -20,11 +20,14 @@ INDICATORS = [
     "macd",
     "boll_ub",
     "boll_lb",
-    "rsi_30",
-    "cci_30",
-    "dx_30",
+    "rsi_6",
+    "cci_10",
+    "dx_30"
+    "atr_13",
     "close_30_sma",
     "close_60_sma",
+    "df.init_all()",
+    "dmi"
 ]
 
 
